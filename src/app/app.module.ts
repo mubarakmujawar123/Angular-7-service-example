@@ -15,5 +15,6 @@ import { PersonService } from './person.service'
   declarations: [ AppComponent, HelloComponent ],
   bootstrap:    [ AppComponent ],
   providers:[PersonService]
+  
 })
 export class AppModule { }
