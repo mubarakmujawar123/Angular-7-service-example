@@ -8,12 +8,10 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { PersonService } from './person.service'
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import {
-  MatTabBody
-} from '@angular/material';
+
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule, HttpClientModule ],
+  imports:      [ BrowserModule, FormsModule, HttpClientModule],
   declarations: [ AppComponent, HelloComponent ],
   bootstrap:    [ AppComponent ],
   providers:[PersonService]
