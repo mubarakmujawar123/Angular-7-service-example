@@ -7,7 +7,7 @@ import { HelloComponent } from './hello.component';
 import { HttpClientModule } from '@angular/common/http';
 
 import { PersonService } from './person.service'
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 
 
 @NgModule({
