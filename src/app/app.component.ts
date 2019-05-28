@@ -9,10 +9,14 @@ import { PersonService } from './person.service';
   styleUrls: [ './app.component.css' ]
 })
 export class AppComponent implements OnInit {
+  dataSource;
+  displayedColumns = [];
   persons:Person[];
+ 
   constructor(private personService: PersonService){}
   ngOnInit(){
     return this.personService.getPersons()
             .subscribe(data => this.persons = data)
   }
+  
 }
